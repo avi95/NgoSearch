@@ -4,6 +4,13 @@
     mysql_select_db("u718924006_ngoda") or die(mysql_error());
 ?>
 
+<script type="text/javascript">
+<!--
+if (screen.width <= 699) {
+document.location = "mobile_search.php";
+}
+//-->
+</script>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -157,7 +164,8 @@
            
              
                print " 
-<table border=\"5\" cellpadding=\"5\" cellspacing=\"0\" style=\"border-collapse: collapse\" bordercolor=\"#808080\" width=\"100&#37;\" id=\"AutoNumber2\" bgcolor=\"#C0C0C0\"><tr> 
+<div class=\"table-responsive\">
+<table class=\"table\" ><tr> 
 <td width=100>NGO Name:</td> 
 <td width=100>Registration Number:</td> 
 <td width=100>City:</td> 
@@ -179,8 +187,10 @@ print "<td>" . $results['sector'] . "</td>";
 print "</tr>"; 
 
 print "</table>"; 
-               
-               echo "<br>";
+print"</div>";
+
+                 echo"<br>";               
+
             }
              
         }
