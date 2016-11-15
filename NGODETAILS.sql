@@ -4,7 +4,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Nov 14, 2016 at 09:07 PM
+-- Generation Time: Nov 14, 2016 at 10:58 PM
 -- Server version: 10.0.20-MariaDB
 -- PHP Version: 5.2.17
 
@@ -36,7 +36,7 @@ CREATE TABLE IF NOT EXISTS `NGODETAILS` (
   `address` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
   `sector` varchar(500) COLLATE utf8_unicode_ci DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=8 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=18 ;
 
 --
 -- Dumping data for table `NGODETAILS`
@@ -49,7 +49,17 @@ INSERT INTO `NGODETAILS` (`id`, `name`, `regno`, `city`, `state`, `address`, `se
 (4, 'AL MANSOOR EDUCATIONAL AND WELFARE TRUST', 12704, 'darbhanga', 'Bihar', 'al-mansoor educational and welfare trust puranimunsafi p.o lal bagh darbhanga 846004', 'Any Other'),
 (5, 'GRAMIN UTTHAN SEWA SAMITI', 210, 'KATIHAR', 'Bihar', 'VILL- CHMARPARA, PO- DHARHAN, PS- PRANPUR DIST- KATIHAR (BIHAR) PIN- 854113', 'Animal Husbandry, Dairying & Fisheries, Aged/Elderly, Agriculture, Art & Culture, Biotechnology, Children, Civic Issues, Differently Abled, Disaster Management, Dalit Upliftment, Drinking Water, Education & Literacy, Environment & Forests, Food Processing, Health & Family Welfare, HIV/AIDS, Housing, Human Rights, Information & Communication Technology, Legal Awareness & Aid, Labour & Employment, Land Resources, Micro Finance (SHGs), Minority Issues, Micro Small & Medium Enterprises,'),
 (6, 'AKASH FOUNDATION', 693482010, 'Delhi', 'Delhi', 'B-9 , CHRISTIAN COLONY , PATEL CHEST , DELHI-110007', NULL),
-(7, 'CHARAN SINGH EDUCATIONAL SOCIETY', 55338, 'Delhi', 'Delhi', 'ccsp ( Ch. Charan Singh Polytechnic) Police Station Road Near Ragunath Mandir', 'Education & Literacy');
+(7, 'CHARAN SINGH EDUCATIONAL SOCIETY', 55338, 'Delhi', 'Delhi', 'ccsp ( Ch. Charan Singh Polytechnic) Police Station Road Near Ragunath Mandir', 'Education & Literacy'),
+(8, 'ACANI', 268, 'Port Blair', 'Andaman and Nicobar Island', 'ACANI Prerna Deep, Lambaline Junglighat P.O Andaman & Nicobar Islands Pin 744103', 'Animal Husbandry, Dairying & Fisheries, Agriculture, Children, Disaster Management, Drinking Water, Education & Literacy, Environment & Forests, Health & Family Welfare, Housing, Land Resources, Micro Finance (SHGs), Nutrition, Panchayati Raj, Rural Development & Poverty Alleviation, Tribal Affairs, Vocational Training, Water Resources, Women''s Development & Empowerment, Youth Affairs'),
+(9, '	ADITYA NATYA ACADEMY', 888, 'Portblair', 'Andaman and Nicobar Island', 'N.L. Debsharma O/O The CGM(T) BSNL, Telephone Bhavan, Pin-744101', NULL),
+(10, '	YOUTH ACTION FOR RURAL DEVELOPMENT', 100081999, 'hydarabad', 'Andhra Pradesh', 'VILL; Vilasagar, mond; boinpally, DIST;Karimnagar', 'Animal Husbandry, Dairying & Fisheries, Aged/Elderly, Agriculture, Art & Culture, Biotechnology, Children, Civic Issues, Differently Abled, Disaster Management, Dalit Upliftment, Drinking Water, Education & Literacy, Environment & Forests, Food Processing, Health & Family Welfare, HIV/AIDS, Housing, Human Rights, Information & Communication Technology, Legal Awareness & Aid, Labour & Employment, Land Resources, Micro Finance (SHGs), Minority Issues, Micro Small & Medium Enterprises,'),
+(11, '	CHAITHANYA MAHILA MANDALI', 506, 'Hyderabad', 'Andhra Pradesh', 'Chaithanya Mahila Mandali(CMM) H.No:12-11-1557/4 Behind Arts college Railway Station, Boudha Nagar, Sitafalmandi-Post Secunderabad-61', 'Women''s Development & Empowerment'),
+(12, '	AALO HIKO SELF HELP SOCIETY', 3406, 'Itanagar', 'Arunachal Pradesh', 'Aalo Hiko SH Society, Vill: Kabu', 'Animal Husbandry, Dairying & Fisheries, Agriculture, Art & Culture, Children, Civic Issues, Drinking Water, Education & Literacy, Environment & Forests, Food Processing, Health & Family Welfare, HIV/AIDS, Human Rights, Minority Issues, Rural Development & Poverty Alleviation, Scientific & Industrial Research, Sports, Tribal Affairs, Tourism, Urban Development & Poverty Alleviation, Vocational Training, Water Resources, Women''s Development & Empowerment, Youth Affairs'),
+(13, '	AAN AAB WELFARE SOCIETY', 3251, 'Naharlagun', ' Arunachal Pradesh', 'Tili Lower Subansiri District', 'Any Other'),
+(14, '		SAROJINI NAIDU RURAL WELFARE AND EDUCATIOOON TRUST', 732003, 'Dindigul', 'Tamil Nadu', 'V MUTHUSUGUNA 21 JUDGE G RAMACHANDRAN NAGAR JAMBULIAPATTY POST DINDIGUL 5 TAMILNADU PIN 624005', 'Aged/Elderly, Children, Education & Literacy, Legal Awareness & Aid, Micro Finance (SHGs), Rural Development & Poverty Alleviation, Water Resources, Women''s Development & Empowerment'),
+(15, '	GNANSUNDARAM BAKTHAVATCHALAM WOMENS ASSOCIATION', 7902000, 'Chennai', 'Tamil Nadu', '83,alamelumangapuram mylapore Chennai 600004', 'Animal Husbandry, Dairying & Fisheries, Biotechnology, Civic Issues, Differently Abled, Environment & Forests, Health & Family Welfare, HIV/AIDS, Housing, Micro Finance (SHGs), Micro Small & Medium Enterprises, Tourism, Vocational Training, Water Resources, Women''s Development & Empowerment'),
+(16, '	BISWASUK SEVASRAM SANGHA', 1973, 'Kolkata', 'West Bengal', 'Thakur Sukdev Sarani P.o.- Ichapur-Nawabganj Dist.- North 24 Parganas West Bengal, Pin code-743144', 'Aged/Elderly, Agriculture, Children, Disaster Management, Dalit Upliftment, Education & Literacy, Health & Family Welfare, Rural Development & Poverty Alleviation, Vocational Training'),
+(17, '	VISHWA SAANTI SENA', 12, 'GONDA', ' Uttar Pradesh', '268 Awas Vikash Colony Gonda U.P.', 'Animal Husbandry, Dairying & Fisheries, Aged/Elderly, Agriculture, Art & Culture, Biotechnology, Children, Civic Issues, Differently Abled, Disaster Management, Dalit Upliftment, Drinking Water, Education & Literacy, Environment & Forests, Food Processing, Health & Family Welfare, HIV/AIDS, Housing, Human Rights, Information & Communication Technology, Legal Awareness & Aid, Labour & Employment, Land Resources, Micro Finance (SHGs), Minority Issues, Micro Small & Medium Enterprises,');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
