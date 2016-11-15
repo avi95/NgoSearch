@@ -1,6 +1,6 @@
 <?php
     error_reporting(E_ALL ^ E_DEPRECATED);
-    mysql_connect("mysql.hostinger.in", "u718924006_ngoda", "pBNta54zwp") or die("Error connecting to database: ".mysql_error());
+    mysql_connect("mysql.hostinger.in", "u718924006_ngoda", "") or die("Error connecting to database: ".mysql_error());
     mysql_select_db("u718924006_ngoda") or die(mysql_error());
 ?>
 
