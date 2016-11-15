@@ -1,6 +1,6 @@
 <?php
     error_reporting(E_ALL ^ E_DEPRECATED);
-    mysql_connect("mysql.hostinger.in", "u718924006_ngoda", "") or die("Error connecting to database: ".mysql_error());
+    mysql_connect("mysql.hostinger.in", "u718924006_ngoda", "pBNta54zwp") or die("Error connecting to database: ".mysql_error());
     mysql_select_db("u718924006_ngoda") or die(mysql_error());
 ?>
 
@@ -156,8 +156,31 @@
             while($results = mysql_fetch_array($raw_results)){
            
              
-                echo "<p><h3>".$results['name']."</h3>".$results['regno']."</h3>".$results['city']."</h3>".$results['state']."</h3>".$results['address']."</h3>".$results['sector']."</p>";
+               print " 
+<table border=\"5\" cellpadding=\"5\" cellspacing=\"0\" style=\"border-collapse: collapse\" bordercolor=\"#808080\" width=\"100&#37;\" id=\"AutoNumber2\" bgcolor=\"#C0C0C0\"><tr> 
+<td width=100>NGO Name:</td> 
+<td width=100>Registration Number:</td> 
+<td width=100>City:</td> 
+<td width=100>State:</td> 
+<td width=100>Address:</td> 
+<td width=100>Sector:</td> 
+
+</tr>"; 
+
+
+
+print "<tr>"; 
+print "<td>" . $results['name'] . "</td>"; 
+print "<td>" . $results['regno'] . "</td>"; 
+print "<td>" . $results['city'] . "</td>"; 
+print "<td>" . $results['state'] . "</td>";
+print "<td>" . $results['address'] . "</td>";
+print "<td>" . $results['sector'] . "</td>"; 
+print "</tr>"; 
+
+print "</table>"; 
                
+               echo "<br>";
             }
              
         }
