@@ -4,7 +4,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Nov 14, 2016 at 10:58 PM
+-- Generation Time: Nov 15, 2016 at 11:25 AM
 -- Server version: 10.0.20-MariaDB
 -- PHP Version: 5.2.17
 
@@ -36,7 +36,7 @@ CREATE TABLE IF NOT EXISTS `NGODETAILS` (
   `address` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
   `sector` varchar(500) COLLATE utf8_unicode_ci DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=18 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=27 ;
 
 --
 -- Dumping data for table `NGODETAILS`
@@ -59,7 +59,16 @@ INSERT INTO `NGODETAILS` (`id`, `name`, `regno`, `city`, `state`, `address`, `se
 (14, '		SAROJINI NAIDU RURAL WELFARE AND EDUCATIOOON TRUST', 732003, 'Dindigul', 'Tamil Nadu', 'V MUTHUSUGUNA 21 JUDGE G RAMACHANDRAN NAGAR JAMBULIAPATTY POST DINDIGUL 5 TAMILNADU PIN 624005', 'Aged/Elderly, Children, Education & Literacy, Legal Awareness & Aid, Micro Finance (SHGs), Rural Development & Poverty Alleviation, Water Resources, Women''s Development & Empowerment'),
 (15, '	GNANSUNDARAM BAKTHAVATCHALAM WOMENS ASSOCIATION', 7902000, 'Chennai', 'Tamil Nadu', '83,alamelumangapuram mylapore Chennai 600004', 'Animal Husbandry, Dairying & Fisheries, Biotechnology, Civic Issues, Differently Abled, Environment & Forests, Health & Family Welfare, HIV/AIDS, Housing, Micro Finance (SHGs), Micro Small & Medium Enterprises, Tourism, Vocational Training, Water Resources, Women''s Development & Empowerment'),
 (16, '	BISWASUK SEVASRAM SANGHA', 1973, 'Kolkata', 'West Bengal', 'Thakur Sukdev Sarani P.o.- Ichapur-Nawabganj Dist.- North 24 Parganas West Bengal, Pin code-743144', 'Aged/Elderly, Agriculture, Children, Disaster Management, Dalit Upliftment, Education & Literacy, Health & Family Welfare, Rural Development & Poverty Alleviation, Vocational Training'),
-(17, '	VISHWA SAANTI SENA', 12, 'GONDA', ' Uttar Pradesh', '268 Awas Vikash Colony Gonda U.P.', 'Animal Husbandry, Dairying & Fisheries, Aged/Elderly, Agriculture, Art & Culture, Biotechnology, Children, Civic Issues, Differently Abled, Disaster Management, Dalit Upliftment, Drinking Water, Education & Literacy, Environment & Forests, Food Processing, Health & Family Welfare, HIV/AIDS, Housing, Human Rights, Information & Communication Technology, Legal Awareness & Aid, Labour & Employment, Land Resources, Micro Finance (SHGs), Minority Issues, Micro Small & Medium Enterprises,');
+(17, '	VISHWA SAANTI SENA', 12, 'GONDA', ' Uttar Pradesh', '268 Awas Vikash Colony Gonda U.P.', 'Animal Husbandry, Dairying & Fisheries, Aged/Elderly, Agriculture, Art & Culture, Biotechnology, Children, Civic Issues, Differently Abled, Disaster Management, Dalit Upliftment, Drinking Water, Education & Literacy, Environment & Forests, Food Processing, Health & Family Welfare, HIV/AIDS, Housing, Human Rights, Information & Communication Technology, Legal Awareness & Aid, Labour & Employment, Land Resources, Micro Finance (SHGs), Minority Issues, Micro Small & Medium Enterprises,'),
+(18, 'GNANSUNDARAM BAKTHAVATCHALAM WOMENS ASSOCIATION', 7902000, 'Chennai', 'Tamil Nadu', '83,alamelumangapuram mylapore Chennai 600004', 'Animal Husbandry, Dairying & Fisheries, Biotechnology, Civic Issues, Differently Abled, Environment & Forests, Health & Family Welfare, HIV/AIDS, Housing, Micro Finance (SHGs), Micro Small & Medium Enterprises, Tourism, Vocational Training, Water Resources, Women''s Development & Empowerment'),
+(19, '	HELP CENTRE', 891, 'CHENNAI', 'Tamil Nadu', '13/7, BOOTHA PERUMAL 1st LANE, ANNA SALAI, CHENNAI - 600 002.', 'Dalit Upliftment'),
+(20, 'KALASADHAN ALAYA', 5881994, 'chennai', 'Tamil Nadu', 'sriram apartments, old no 196 A, new no 80, St. marys road, abhiramapuram, Chennai- 600018', 'Art & Culture'),
+(21, 'REAL CHARITABLE TRUST', 444507, 'CHENNAI', 'Tamil Nadu', 'REAL CHARITABLE TRUST No: 297, 4th Street, Dhamodharan Nagar, Vyasarpadi, Chennai – 600 039.', NULL),
+(22, '	THIRUVALLUVAR EDUCATIONAL AND RURAL DEVELOPMENT TRUST', 49506, 'chennai', 'Tamil Nadu', 'OIDNO:10/10A, 915,AMIRTHAPURAM,WBR-KANDRAMANICKAM, SIVAGANGAI DIST .TAMILNADU INDIA. PIN CODE:630204', 'Minority Issues, Nutrition, Rural Development & Poverty Alleviation, Science & Technology, Tourism, Vocational Training, Women''s Development & Empowerment, Youth Affairs'),
+(23, '	AA EDUTECH PVT LTD', 76529, 'Chennai', 'Tamil Nadu', 'Aryaa 378 Kapaleeswar nagar Neelankari Chennai 600041', 'Education & Literacy'),
+(24, 'AALAMARAM', 1062009, 'Cuddalore', ' Tamil Nadu', 'Thiyagavalli and Post, Cuddalore Taluk, Pincode 608801', 'Agriculture, Biotechnology, Civic Issues, Disaster Management, Environment & Forests, Human Rights, Legal Awareness & Aid, Land Resources, Youth Affairs'),
+(25, 'AALAYAM KANDEN TRUST', 88711, 'CHENNAI', 'Tamil Nadu', 'Flat A Nutech Apartments No 36 Kripasankari Street West Mambalam Madras 600 033', 'Art & Culture, Labour & Employment, Rural Development & Poverty Alleviation, Tourism'),
+(26, '	AARDE FOUNDATION	', 1243, 'Chennai', 'Tamil Nadu', '4/24, Saraswathi Street, Mahalingapuram, Chennai 600034, India', 'Agriculture, Art & Culture, Disaster Management, Drinking Water, Environment & Forests, Housing, Micro Small & Medium Enterprises, New & Renewable Energy, Rural Development & Poverty Alleviation, Scientific & Industrial Research, Science & Technology, Tourism, Urban Development & Poverty Alleviation, Vocational Training, Women''s Development & Empowerment, Youth Affairs, Any Other');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
